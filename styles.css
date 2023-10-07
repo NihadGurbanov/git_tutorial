@@ -1,0 +1,41 @@
+body, main {display: flex;}
+body {flex-direction: column;}
+main {flex-direction: row;flex: auto;}
+article {flex:2; overflow-y:auto;}
+aside{flex:1; overflow-y:auto;}
+#logo {width:200px;
+       height:auto;}
+	   
+a:hover {color:blue;}
+p.content {color:gray;
+			border: 3px solid currentcolor;
+			border-radius: 10px;
+			padding: 20px;}
+			
+			
+ p.content {
+    
+    background-image: url('https://img.freepik.com/free-vector/abstract-3d-architecture-grid-lines-vector-design_1017-45235.jpg?w=1060&t=st=1693825409~exp=1693826009~hmac=ddaff53d5eb71a6bfd306732d6389ab4b27f4238a7806581b50b01334f1d6c7a'); /* Replace 'logo-background.jpg' with your image file path */
+    background-size: cover; /* Adjust the background image size as needed */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+
+.content {
+    transition: transform 0.3s ease;
+}
+
+.content:hover {
+    transform: scale(1.03);
+}
+
+
+/* #body, #main {display: flex;} */
+/* #body {flex-direction: column;} */
+/* #main {flex-direction: row;flex: auto;} */
+/* #article {flex:1; overflow-y:auto;  */
+		/* border-radius: 50%; */
+		/* width:50px; */
+		/* height:auto;} */
+/* #aside{flex:2; overflow-y:auto;} */
+
